@@ -1,0 +1,62 @@
+.Post {
+    background-color: #FFFFFF;
+    width: 80%;
+    border: 1px solid #2f1c51;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Post p {
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.postTexts{
+    width: 100%;
+}
+
+.postTexts p {
+    max-width: 600px;
+}
+
+.postDiv{
+    background-color: #2f1c51;
+    display: flex;
+    min-width: 100%;
+    max-height: 2px;
+}
+
+.postButtons {
+    min-width: 100%;
+}
+
+.detailsButton{
+    padding: 10px 20px;
+    background-color: #0C359E;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: monospace;
+    margin-left: 60.2%;
+}
+
+.deleteButton {
+    padding: 10px 20px;
+    background-color: rgb(188, 7, 7);
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    font-family: monospace;
+    margin-left: 10px;
+}
+
+.postImage{
+    max-height: 400px;
+    max-width: 100%;
+    padding: 10px;
+}

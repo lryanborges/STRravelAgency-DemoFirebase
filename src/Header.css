@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerMain {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    min-width: 50%;
+    border: 2px solid #2f1c51;
+    background-color: #2f1c51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.headerMain a {
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    background-color: #2f1c51;
+    margin: 10px;
+}
+
+.headerMain a:hover {
+    background-color: #23153b;
+    border-radius: 4px;
+}

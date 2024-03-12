@@ -1,0 +1,16 @@
+.Main{
+    background-color: #F6F5F5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212121;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.imageBanner{
+    width: 100%;
+    border-bottom: 2px solid #2f1c51;
+}

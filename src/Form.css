@@ -1,0 +1,36 @@
+.formContent{
+    background-color: white;
+    border: 1px solid #2f1c51;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    height: 280px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.formContent h1 {
+    align-self: center;
+}
+
+.formContent input {
+    padding: 4px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.pickImage {
+    background-color: #FFE3CA;
+}
+
+.submitFormButton{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #0C359E;
+    border: 1px solid black;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: monospace;
+}
