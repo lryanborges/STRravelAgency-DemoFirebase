@@ -69,6 +69,8 @@ function Posts() {
 
         onValue(postsRef, handleData);
 
+        return () => off(postsRef, 'value', handleData);
+
     }, [postsRef])
 
     return (
